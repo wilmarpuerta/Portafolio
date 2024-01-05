@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://w.wallhaven.cc/full/m3/wallhaven-m3r9qy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bienvenida{
+    width: 100%;
+    text-align: center;
+    padding: 10% 0 80px 0;
+    font-size: 40px;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 0 5% 20px 5%;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.img-card{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.title{
+    text-align: center;
+    padding-top: 10px;
+}
